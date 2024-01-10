@@ -8,6 +8,7 @@ public sealed class GetAllCompaniesWithJobsQueryHandler(ICompanyQuery companyQue
     : IQueryHandler<GetAllCompaniesWithJobsQuery, IQueryable<GetAllCompaniesWithJobsResponse>>
 {
     private readonly ICompanyQuery _companyQuery = companyQuery;
+
     public async Task<Result<IQueryable<GetAllCompaniesWithJobsResponse>>> Handle
         (GetAllCompaniesWithJobsQuery request, CancellationToken cancellationToken)
     {

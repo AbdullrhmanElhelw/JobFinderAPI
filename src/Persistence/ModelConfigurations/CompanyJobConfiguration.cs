@@ -19,7 +19,5 @@ internal class CompanyJobConfiguration : IEntityTypeConfiguration<CompanyJob>
                .WithMany(e => e.CompanyJobs)
                .HasForeignKey(e => e.JobId)
                .HasConstraintName("FK_CompanyJobs_Jobs");
-
-
     }
 }

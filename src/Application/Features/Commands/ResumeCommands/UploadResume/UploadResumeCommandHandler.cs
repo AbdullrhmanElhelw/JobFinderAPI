@@ -39,6 +39,5 @@ public class UploadResumeCommandHandler(IUnitOfWork unitOfWork, IApplicantQuery 
             return Result.Fail(new Error("Unable to upload resume"));
 
         return Result.Ok();
-
     }
 }

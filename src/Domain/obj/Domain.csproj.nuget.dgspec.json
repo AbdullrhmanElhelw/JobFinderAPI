@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Domain\\Domain.csproj": {
+    "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Eng Cocu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eng Cocu\\AppData\\Roaming\\NuGet\\NuGet.Config",

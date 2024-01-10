@@ -13,7 +13,5 @@ public class UploadResumeValidation : AbstractValidator<UploadResumeCommand>
         RuleFor(x => x.Resume)
             .NotNull()
             .WithMessage("Resume must not be null");
-
     }
-
 }

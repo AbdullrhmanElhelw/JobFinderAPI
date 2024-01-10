@@ -45,8 +45,8 @@ public class SkillController(ISender sender)
         return result.IsSuccess ? Ok(result) : HandleFailure(result);
     }
 
-    [HttpGet("GetAll/{pageSize:int}/{pageNumber:int}")]
-    public async Task<IActionResult> GetAllSkillsWithPaging(int pageSize, int pageNumber, CancellationToken cancellationToken, string filter = "", string sortOrder = "")
+    [HttpGet("GetAll/{pageNumber:int}/{pageSize:int}")]
+    public async Task<IActionResult> GetAllSkillsWithPaging(int pageNumber, int pageSize, CancellationToken cancellationToken, [FromQuery] string filter = "", [FromQuery] string sortOrder = "")
     {
         var result = await _sender.Send(new GetAllSkillsWithPagingQuery(pageSize, pageNumber, filter, sortOrder), cancellationToken);
         return result.IsSuccess ? Ok(result) : HandleFailure(result);

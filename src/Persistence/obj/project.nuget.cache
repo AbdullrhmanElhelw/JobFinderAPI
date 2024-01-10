@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GMk1bIgwCxWBepTNxGzEb+aYhKRznH56PevksEEgdxaWYonoEB35UK3AyHOoG/UUNEBmuT4fOQfNKjkIdeq25w==",
+  "dgSpecHash": "xcrWzijUyMVBYhSCEpNZn4RM9Qdf0jcfFOKUs6ZVAmXCrjbcp/RtgQfYpxNxDNx+Y8IN9bBrPJ4WsL3tFvsjeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eng Cocu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Eng Cocu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

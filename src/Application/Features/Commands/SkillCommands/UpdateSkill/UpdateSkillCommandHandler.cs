@@ -28,4 +28,3 @@ public sealed class UpdateSkillCommandHandler(IUnitOfWork unitOfWork, ISkillQuer
         return Result.Ok("Skill updated successfully");
     }
 }
-

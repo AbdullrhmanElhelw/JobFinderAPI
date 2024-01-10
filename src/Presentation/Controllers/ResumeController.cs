@@ -6,6 +6,7 @@ using Domain.Enums.ApplicationRoles;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.Filters;
 
 namespace Presentation.Controllers;
 
@@ -19,9 +20,10 @@ public class ResumeController(ISender sender)
     private readonly ISender _sender = sender;
 
     [HttpPost]
-    public async Task<IActionResult> UploadResume([FromForm] UploadResumeDTO command)
+    [ResumeValidator]
+    public async Task<IActionResult> UploadResume([FromForm] UploadResumeDTO resume)
     {
-        var result = await _sender.Send(new UploadResumeCommand(command.ApplicantId, command.Resume));
+        var result = await _sender.Send(new UploadResumeCommand(resume.ApplicantId, resume.Resume));
         return result.IsSuccess ?
             Ok(result) :
             HandleFailure(result);

@@ -30,7 +30,6 @@ public class CreateJobCommandHandler(IUnitOfWork unitOfWork)
             Job = job
         };
 
-
         await _unitOfWork.JobRepository.AddAsync(job);
         await _unitOfWork.CompanyJobRepository.AddAsync(companyJob);
 
@@ -38,6 +37,5 @@ public class CreateJobCommandHandler(IUnitOfWork unitOfWork)
             return Result.Fail(new Error("Saving Error"));
 
         return Result.Ok();
-
     }
 }

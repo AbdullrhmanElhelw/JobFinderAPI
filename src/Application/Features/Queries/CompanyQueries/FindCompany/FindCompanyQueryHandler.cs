@@ -8,6 +8,7 @@ public sealed class FindCompanyQueryHandler(ICompanyQuery companyQuery)
     : IQueryHandler<FindCompanyQuery, IQueryable<FindCompanyResponse>>
 {
     private readonly ICompanyQuery _companyQuery = companyQuery;
+
     public async Task<Result<IQueryable<FindCompanyResponse>>> Handle(FindCompanyQuery request, CancellationToken cancellationToken)
     {
         var companies = await _companyQuery.FindCompany(request.Filter);

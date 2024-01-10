@@ -16,6 +16,7 @@ public sealed class DeleteSkillCommandHandler
     private readonly IApplicantQuery _applicantQuery = applicantQuery;
     private readonly ISkillQuery _skillQuery = skillQuery;
     private readonly IApplicantSkillQuery _applicantSkillQuery = applicantSkillQuery;
+
     public async Task<Result> Handle(DeleteApplicantSkillCommand request, CancellationToken cancellationToken)
     {
         var applicant = await _applicantQuery.Get(request.ApplicantId);

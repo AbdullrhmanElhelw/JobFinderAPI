@@ -21,7 +21,7 @@ public class JobController(ISender sender)
 {
     private readonly ISender _sender = sender;
 
-    [HttpGet]
+    [HttpGet("GetAll")]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken)
     {
         var result = await _sender.Send(new GetAllJobsQuery(), cancellationToken);
@@ -30,9 +30,9 @@ public class JobController(ISender sender)
             : HandleFailure(result);
     }
 
-    [HttpGet("GetAllWithPagination")]
+    [HttpGet("GetAllWithPagination/{pageNumber:int}/{pageSize:int}")]
     public async Task<IActionResult> GetAllWithPagination
-        ([FromQuery] int pageNumber, [FromQuery] int pageSize, CancellationToken cancellationToken, [FromQuery] string filter = "")
+        (int pageNumber, int pageSize, CancellationToken cancellationToken, [FromQuery] string filter = "")
     {
         var result = await _sender.Send(new GetAllJobsWithPagingQuery(pageSize, pageNumber, filter), cancellationToken);
         return result.IsSuccess

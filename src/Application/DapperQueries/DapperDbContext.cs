@@ -8,6 +8,7 @@ public class DapperDbContext
 {
     private readonly string _connectionString;
     private readonly IConfiguration _configuration;
+
     public DapperDbContext(IConfiguration configuration)
     {
         _configuration = configuration;

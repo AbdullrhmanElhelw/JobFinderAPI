@@ -8,6 +8,7 @@ public class FindJobQueryHandler(IJobQuery jobQuery) :
     IQueryHandler<FindJobQuery, IQueryable<FindJobResponse>>
 {
     private readonly IJobQuery _jobQuery = jobQuery;
+
     public async Task<Result<IQueryable<FindJobResponse>>> Handle(FindJobQuery request, CancellationToken cancellationToken)
     {
         var jobs = await _jobQuery.FindJob(request.Filter);

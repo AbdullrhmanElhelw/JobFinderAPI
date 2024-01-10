@@ -9,6 +9,7 @@ public class GenericRepository<TModel>(ApplicationDbContext context)
     : IGenericRepository<TModel> where TModel : class
 {
     private readonly ApplicationDbContext _context = context;
+
     public async Task<TModel> AddAsync(TModel entity)
     {
         await _context.Set<TModel>().AddAsync(entity);

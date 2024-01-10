@@ -7,6 +7,7 @@ public class ApplicantResume(DapperDbContext context)
     : IApplicantResume
 {
     private readonly DapperDbContext _context = context;
+
     public async Task<GetResumeDTO> GetResume(int applicantId)
     {
         using var connection = _context.CreateConnection();

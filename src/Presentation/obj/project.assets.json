@@ -5410,11 +5410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Presentation\\Presentation.csproj",
+      "projectPath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\Eng Cocu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Presentation\\obj\\",
+      "outputPath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eng Cocu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5431,8 +5431,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Persistence\\Persistence.csproj"
             }
           }
         }

@@ -7,6 +7,7 @@ public class ResumeQuery(DapperDbContext context)
     : IResumeQuery
 {
     private readonly DapperDbContext _context = context;
+
     public async Task<GetResumeDTO?> Get(int Id)
     {
         using var connection = _context.CreateConnection();
