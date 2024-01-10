@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pT9GZ/8LqKqxRdcXljcY5lSjvTkB8KRpseyoGDk25nLtVC6Dz3L/bnV16aBur85zNnfKKPCTFe26r4f3hlm8Kw==",
+  "dgSpecHash": "ni051QL3SdGJ2/BzR/lgYiRA343iETRMZN7V/12NOB9qLTOx4gpLY3ufYOeS7h2t0LrXrLLg+BScahPszl8wwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eng Cocu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Eng Cocu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

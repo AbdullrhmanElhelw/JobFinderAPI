@@ -60,8 +60,8 @@ public class AdminController(ISender sender)
         return result.IsSuccess ? Ok(result) : HandleFailure(result);
     }
 
-    [HttpGet("GetAllAdminsWithPaging")]
-    public async Task<IActionResult> GetAllAdminsWithPaging([FromQuery] int pageSize, [FromQuery] int pageNumber)
+    [HttpGet("GetAllAdminsWithPaging/{pageNumber:int}/{pageSize:int}")]
+    public async Task<IActionResult> GetAllAdminsWithPaging(int pageSize, int pageNumber)
     {
         var result = await _sender.Send(new GetAllAdminsWithPagingQuery(pageSize, pageNumber));
         return result.IsSuccess ? Ok(result) : HandleFailure(result);

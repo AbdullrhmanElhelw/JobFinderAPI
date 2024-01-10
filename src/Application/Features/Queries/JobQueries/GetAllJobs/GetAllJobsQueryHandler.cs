@@ -8,6 +8,7 @@ public sealed class GetAllJobsQueryHandler(IJobQuery jobQuery) :
     IQueryHandler<GetAllJobsQuery, IQueryable<GetAllJobsResponse>>
 {
     private readonly IJobQuery _jobQuery = jobQuery;
+
     public async Task<Result<IQueryable<GetAllJobsResponse>>> Handle(GetAllJobsQuery request, CancellationToken cancellationToken)
     {
         var jobs = await _jobQuery.GetAll();

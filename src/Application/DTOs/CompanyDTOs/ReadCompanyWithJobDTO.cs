@@ -11,5 +11,3 @@ public class ReadCompanyWithJobDTO
     public string Email { get; set; } = null!;
     public IEnumerable<ReadJobOfCompanyDTO> Jobs { get; set; } = [];
 }
-
-

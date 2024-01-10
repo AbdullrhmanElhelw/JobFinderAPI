@@ -13,6 +13,7 @@ public sealed class CreateApplicationCommandHandler(IApplicantQuery applicantQue
     private readonly IApplicantQuery _applicantQuery = applicantQuery;
     private readonly IJobQuery _jobQuery = jobQuery;
     private readonly IUnitOfWork _unitOfWork = unitOfWork;
+
     public async Task<Result> Handle(CreateApplicationCommand request, CancellationToken cancellationToken)
     {
         var applicant = await _applicantQuery.Get(request.ApplicantId);
@@ -37,4 +38,3 @@ public sealed class CreateApplicationCommandHandler(IApplicantQuery applicantQue
         return Result.Ok();
     }
 }
-

@@ -10,6 +10,7 @@ public sealed class DeleteSkillCommandHandler(IUnitOfWork unitOfWork, ISkillQuer
 {
     private readonly IUnitOfWork _unitOfWork = unitOfWork;
     private readonly ISkillQuery _skillQuery = skillQuery;
+
     public async Task<Result> Handle(DeleteSkillCommand request, CancellationToken cancellationToken)
     {
         var skill = await _skillQuery.Get(request.Id);
@@ -23,6 +24,7 @@ public sealed class DeleteSkillCommandHandler(IUnitOfWork unitOfWork, ISkillQuer
         return Result.Ok();
     }
 }
+
 // find skill
 // delete skill
 // iskillquery,

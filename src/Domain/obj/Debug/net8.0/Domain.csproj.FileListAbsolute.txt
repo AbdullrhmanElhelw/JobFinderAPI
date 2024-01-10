@@ -10,3 +10,16 @@ C:\Users\Eng Cocu\source\repos\JobFinder\Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\Eng Cocu\source\repos\JobFinder\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Eng Cocu\source\repos\JobFinder\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Eng Cocu\source\repos\JobFinder\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Eng Cocu\Desktop\JobFinderAPI\src\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -7,5 +7,4 @@ namespace Persistence.Repositories;
 public class ResumeRepository(ApplicationDbContext dbContext)
     : GenericRepository<Resume>(dbContext), IResumeRepository
 {
-
 }

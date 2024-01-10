@@ -7,6 +7,4 @@ namespace Persistence.Repositories;
 public class ApplicationRepository(ApplicationDbContext dbContext) :
     GenericRepository<ApplicantJob>(dbContext), IApplicationRepository
 {
-
 }
-

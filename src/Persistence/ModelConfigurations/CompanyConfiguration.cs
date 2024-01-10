@@ -24,6 +24,5 @@ internal class CompanyConfiguration : IEntityTypeConfiguration<Company>
             .HasForeignKey(employer => employer.CompanyId)
             .HasConstraintName("FK_Company_Employer")
             .OnDelete(DeleteBehavior.NoAction);
-
     }
 }

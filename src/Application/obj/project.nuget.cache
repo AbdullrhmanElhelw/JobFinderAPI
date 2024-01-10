@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OrXsKAreq++F2hUT5TY/Hjeyj2QDPrnWTTPm6QdaPvSFsMY8oNNHs6vMTrOGfv0ZdDn8SRPgqFUgQh16DFRD/g==",
+  "dgSpecHash": "93N5oqRQpymIi3VRdOKEPuaul7KvDll9ACkV+LxDa1a7qtNa/xltEXaOXezNSXR3FU8D8OAQV1XEEZNSw32biQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eng Cocu\\source\\repos\\JobFinder\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Eng Cocu\\Desktop\\JobFinderAPI\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eng Cocu\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Eng Cocu\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",

@@ -10,6 +10,7 @@ public class GetResumeQueryHandler(IApplicantResume resumeQuery, IApplicantQuery
 {
     private readonly IApplicantResume _resumeQuery = resumeQuery;
     private readonly IApplicantQuery _applicantQuery = applicantQuery;
+
     public async Task<Result<GetResumeResponse>> Handle(GetResumeQuery request, CancellationToken cancellationToken)
     {
         var applicant = await _applicantQuery.Get(request.ApplicantId);

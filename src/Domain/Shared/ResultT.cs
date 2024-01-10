@@ -25,7 +25,4 @@ public class Result<TValue> : Result
 
         return new Result<TValue>(true, value, Error.None);
     }
-
-
-
 }

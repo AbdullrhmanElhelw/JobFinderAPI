@@ -19,7 +19,5 @@ internal class ApplicantSkillConfiguration : IEntityTypeConfiguration<ApplicantS
             .WithMany(e => e.Applicants)
             .HasForeignKey(e => e.SkillId)
             .OnDelete(DeleteBehavior.Cascade);
-
-
     }
 }

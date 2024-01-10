@@ -5,4 +5,3 @@ namespace Application.Features.Commands.ResumeCommands.UploadResume;
 
 public record UploadResumeCommand
     (int ApplicantId, IFormFile Resume) : ICommand;
-

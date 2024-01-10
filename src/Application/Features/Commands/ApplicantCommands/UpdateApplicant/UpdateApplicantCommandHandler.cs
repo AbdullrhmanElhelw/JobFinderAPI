@@ -9,6 +9,7 @@ public sealed class UpdateApplicantCommandHandler(UserManager<Applicant> userMan
     : ICommandHandler<UpdateApplicantCommand>
 {
     private readonly UserManager<Applicant> _userManager = userManager;
+
     public async Task<Result> Handle(UpdateApplicantCommand request, CancellationToken cancellationToken)
     {
         var user = await _userManager.FindByIdAsync(request.Id.ToString());

@@ -8,6 +8,7 @@ public class SkillRepository(ApplicationDbContext context)
     : GenericRepository<Skill>(context), ISkillRepository
 {
     private readonly ApplicationDbContext _context = context;
+
     public async Task AddRangeAsync(IEnumerable<Skill> skills)
     {
         await _context.Skills.AddRangeAsync(skills);
