@@ -30,6 +30,7 @@ public class ApplicantController(ISender sender)
     private readonly ISender _sender = sender;
 
     [HttpPost("Register")]
+    [AllowAnonymous]
     public async Task<IActionResult> ApplicantRegister([FromBody] RegisterApplicantDTO registerApplicantDTO, CancellationToken cancellationToken)
     {
         var result = await _sender.Send(new ApplicantRegisterCommand
@@ -39,6 +40,7 @@ public class ApplicantController(ISender sender)
     }
 
     [HttpPost("Login")]
+    [AllowAnonymous]
     public async Task<IActionResult> ApplicantLogin([FromBody] LoginApplicantDTO loginApplicantDTO, CancellationToken cancellationToken)
     {
         var result = await _sender.Send(new ApplicantLoginCommand(loginApplicantDTO.Email, loginApplicantDTO.Password), cancellationToken);
