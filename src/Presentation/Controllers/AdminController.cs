@@ -33,6 +33,7 @@ public class AdminController(ISender sender)
     }
 
     [HttpPost("Login")]
+    [AllowAnonymous]
     public async Task<IActionResult> Login([FromBody] LoginAdminDTO admin)
     {
         var result = await _sender.Send(new AdminLoginCommand(admin.Email, admin.Password));

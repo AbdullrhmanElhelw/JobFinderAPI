@@ -26,6 +26,7 @@ namespace Presentation.Controllers
         private readonly ISender _sender = sender;
 
         [HttpPost("register")]
+        [AllowAnonymous]
         public async Task<IActionResult> CompanyRegister([FromBody] RegisterCompanyDTO registerCompanyDTO, CancellationToken cancellationToken)
         {
             var result = await _sender.Send(new CompanyRegistrationCommand
@@ -36,6 +37,7 @@ namespace Presentation.Controllers
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> CompanyLogin([FromBody] LoginCompanyDTO loginCompanyDTO, CancellationToken cancellationToken)
         {
             var result = await _sender.Send(new CompanyLoginCommand(loginCompanyDTO.Email, loginCompanyDTO.Password), cancellationToken);
